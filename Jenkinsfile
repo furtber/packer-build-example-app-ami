@@ -4,7 +4,7 @@ node {
 		echo "start build"
 		env.PATH = "/usr/local/bin/:${env.PATH}"
 		env.TF_LOG = "INFO" //TRACE, DEBUG, INFO, WARN or ERROR 
-		env.AWS_DEFAULT_REGION = "eu-central-1"
+		env.AWS_DEFAULT_REGION = "eu-west-1"
 
                 //Packer version print
                 sh "packer --version"
