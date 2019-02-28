@@ -1,0 +1,10 @@
+---
+
+- name: Install and configure example application
+  hosts: all
+  become: yes
+  roles:
+    - example_application
+  tags:
+    - example_application
+
