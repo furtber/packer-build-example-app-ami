@@ -3,7 +3,6 @@
 - name: Install example application
   yum:
     name: httpd
-    enabled: yes
     state: latest
 
 - name: Configure example application
