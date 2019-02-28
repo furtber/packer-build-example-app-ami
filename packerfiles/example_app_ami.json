@@ -22,11 +22,11 @@
       "source_ami_filter": {
         "filters": {
            "virtualization-type": "hvm",
-           "name": "CentOS Linux 7 x86_64 HVM EBS ENA*",
+           "name": "Company specific CentOS 7 Base AMI*",
            "root-device-type": "ebs"
          },
          "owners": [
-             "679593333241"
+             "825265825471"
          ],
          "most_recent": true
       },
