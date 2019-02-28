@@ -12,6 +12,11 @@ node {
 		//Ansible version print
 		sh "ansible --version"
 	}
+        stage("prepare") {
+
+                //Checkout current project .. other can be checked out using git
+                checkout scm
+        }
 	stage("bake") {
 		//Run packer to build RHEL base AMI 
 		sh "packer build packerfiles/example_app_ami.json"
