@@ -22,7 +22,7 @@
       "source_ami_filter": {
         "filters": {
            "virtualization-type": "hvm",
-           "name": "Company-specific-CentOS-7-Base-AMI*",
+           "name": "Company specific CentOS 7 Base AMI*",
            "root-device-type": "ebs"
          },
          "owners": [
