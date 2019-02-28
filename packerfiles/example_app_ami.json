@@ -35,7 +35,7 @@
       ],
       "ami_users": [
            "200562504897",
-           "980331777790",
+           "980331777790"
       ],
       "instance_type": "t3.small",
       "ssh_username": "centos",
