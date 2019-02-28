@@ -6,7 +6,7 @@
     state: latest
 
 - name: Configure example application
-  shell: "echo 'Example app' > /var/www/html"
+  shell: "echo 'Example app' > /var/www/html/index.html"
 
 - name: Upgrade all packages
   yum:
